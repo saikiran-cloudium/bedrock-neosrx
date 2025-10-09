@@ -28,7 +28,19 @@
       "type": "composer",
       "url": "https://wpackagist.org",
       "only": ["wpackagist-plugin/*", "wpackagist-theme/*"]
+    },
+    {
+    "type": "package",
+    "package": {
+      "name": "custom/astra",
+      "version": "4.0.0",
+      "type": "wordpress-theme",
+      "dist": {
+        "url": "https://github.com/saikiran-cloudium/bedrock-astratheme/raw/main/astra.4.0.0.zip",
+        "type": "zip"
+      }
     }
+  }
   ],
   "require": {
     "php": ">=7.4",
@@ -49,7 +61,8 @@
     "wpackagist-plugin/smart-slider-3": "^3.5",
     "wpackagist-plugin/astra-sites": "^4.4",
     "wpackagist-plugin/sticky-header-effects-for-elementor": "^2.1",
-    "wpackagist-plugin/the-plus-addons-for-elementor-page-builder": "^6.3"
+    "wpackagist-plugin/the-plus-addons-for-elementor-page-builder": "^6.3",
+     "custom/astra": "^4.0.0"
   },
   "require-dev": {
     "squizlabs/php_codesniffer": "^3.7.1",
