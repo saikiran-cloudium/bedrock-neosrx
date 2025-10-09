@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "096a831ce06b1d318b9d9abc106b10ca",
+    "content-hash": "9e904eb97429528d8fa57978f957077c",
     "packages": [
         {
             "name": "composer/installers",
@@ -1119,24 +1119,6 @@
             "homepage": "https://wordpress.org/plugins/astra-sites/"
         },
         {
-            "name": "wpackagist-plugin/contact-form-7",
-            "version": "6.1.2",
-            "source": {
-                "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/contact-form-7/",
-                "reference": "tags/6.1.2"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/contact-form-7.6.1.2.zip"
-            },
-            "require": {
-                "composer/installers": "^1.0 || ^2.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/contact-form-7/"
-        },
-        {
             "name": "wpackagist-plugin/elementor",
             "version": "3.32.4",
             "source": {
@@ -1264,15 +1246,15 @@
         },
         {
             "name": "wpackagist-plugin/the-plus-addons-for-elementor-page-builder",
-            "version": "6.3.16",
+            "version": "6.4.0",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/the-plus-addons-for-elementor-page-builder/",
-                "reference": "tags/6.3.16"
+                "reference": "tags/6.4.0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/the-plus-addons-for-elementor-page-builder.6.3.16.zip"
+                "url": "https://downloads.wordpress.org/plugin/the-plus-addons-for-elementor-page-builder.6.4.0.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
