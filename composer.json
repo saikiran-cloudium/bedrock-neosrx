@@ -33,10 +33,10 @@
     "type": "package",
     "package": {
       "name": "custom/astra",
-      "version": "4.0.0",
+      "version": "4.11.13",
       "type": "wordpress-theme",
       "dist": {
-        "url": "https://github.com/saikiran-cloudium/bedrock-astratheme/raw/main/astra.4.0.0.zip",
+        "url": "https://github.com/saikiran-cloudium/bedrock-astratheme/raw/main/astra.4.11.13.zip",
         "type": "zip"
       }
     }

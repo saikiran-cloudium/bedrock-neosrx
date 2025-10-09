@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "92ab153e2de595c7d7090553b71144a2",
+    "content-hash": "5a6d69dd1eb7d447c3e92ac0458dcab8",
     "packages": [
         {
             "name": "composer/installers",
@@ -153,10 +153,10 @@
         },
         {
             "name": "custom/astra",
-            "version": "4.0.0",
+            "version": "4.11.13",
             "dist": {
                 "type": "zip",
-                "url": "https://github.com/saikiran-cloudium/bedrock-astratheme/raw/main/astra.4.0.0.zip"
+                "url": "https://github.com/saikiran-cloudium/bedrock-astratheme/raw/main/astra.4.11.13.zip"
             },
             "type": "wordpress-theme"
         },
