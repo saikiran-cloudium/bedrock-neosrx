@@ -52,7 +52,6 @@
     "roots/wordpress": "^6.5",
     "roots/wp-config": "1.0.0",
     "roots/wp-password-bcrypt": "1.1.0",
-    "wpackagist-theme/twentytwentythree": "^1.0",
     "wpackagist-plugin/elementor": "^3.32",
     "wpackagist-plugin/forminator": "^1.47",
     "wpackagist-plugin/nexter-extension": "^4.3",
