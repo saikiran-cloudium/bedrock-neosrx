@@ -30,4 +30,4 @@ function load_mobile_sidebar_template() {
     get_template_part('template-parts/mobile-sidebar');
     return ob_get_clean();
 }
-add_shortcode('mobile_sidebar_menu', 'load_mobile_sidebar_template');
+add_shortcode('mobile_sidebar_menu', 'load_mobile_sidebar_template'); 
