@@ -24,7 +24,7 @@ wp plugin activate --all --allow-root
 
 # Activate your main theme (child theme)
 echo "🎨 Activating theme..."
-wp theme activate astra-child --allow-root
+wp theme activate astra-child-theme --allow-root
 
 # Clear cache if applicable
 # wp cache flush --allow-root
