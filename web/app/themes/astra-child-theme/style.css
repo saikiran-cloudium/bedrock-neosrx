@@ -1,0 +1,152 @@
+/*
+ Theme Name: Astra Child
+ Theme URI: https://yourdomain.com/
+ Description: Child theme for Astra
+ Author: Your Name or Company
+ Author URI: https://yourdomain.com/
+ Template: astra
+ Version: 1.0.0
+ Text Domain: astra-child
+*/
+
+/* Import parent theme styles */
+@import url("../astra/style.css");
+
+/* Hamburger button top right */
+.hamburger {
+  position: fixed;
+  top: 15px;
+  right: 20px;
+  font-size: 24px;
+  cursor: pointer;
+  color: #111;
+  z-index: 1001;
+  user-select: none;
+}
+
+/* Sidebar container */
+.sidebar {
+  position: fixed;
+  top: 0;
+  left: -320px; /* hidden off screen */
+  width: 320px;
+  height: 100vh;
+  background-color: #1C2025;
+  color: white;
+  padding: 25px 30px;
+  box-shadow: 4px 0 12px rgba(0,0,0,0.15);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  transition: left 0.35s cubic-bezier(0.4, 0, 0.2, 1);
+  z-index: 1000;
+}
+
+/* Sidebar open state */
+.sidebar.open {
+  left: 0;
+}
+
+/* Header: Brand + Close button */
+.sidebar-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.sidebar-header h2 {
+  font-size: 28px;
+  font-weight: 900;
+  letter-spacing: 0.1em;
+  user-select: none;
+  color: white;
+}
+
+/* Close button */
+.close-btn {
+  font-size: 30px;
+  color: white;
+  background: none;
+  border: none;
+  cursor: pointer;
+  line-height: 1;
+  user-select: none;
+}
+
+/* Navigation links container */
+.sidebar-nav {
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+  margin-bottom: 60px;
+}
+
+/* Each nav link */
+.sidebar-nav a {
+  color: white;
+  font-weight: 700;
+  font-size: 15px;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  transition: color 0.25s ease;
+  user-select: none;
+}
+
+/* Hover effect */
+.sidebar-nav a:hover {
+  color: #00ffc3; /* bright teal accent */
+  text-decoration: none;
+}
+
+/* Contact info container */
+.sidebar-contact {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.3;
+  user-select: none;
+}
+
+/* Contact links */
+.sidebar-contact a {
+  color: white;
+  text-decoration: none;
+  transition: color 0.25s ease;
+}
+
+.sidebar-contact a:hover {
+  color: #00ffc3;
+  text-decoration: underline;
+}
+
+/* Social icons container */
+.sidebar-social {
+  margin-top: 12px;
+  display: flex;
+  gap: 18px;
+}
+
+/* Social icon styles */
+.sidebar-social a {
+  color: white;
+  font-size: 18px;
+  transition: color 0.25s ease;
+}
+
+.sidebar-social a:hover {
+  color: #00ffc3;
+}
+
+/* Scroll fix for long menus if needed */
+.sidebar-nav, .sidebar-contact {
+  overflow-y: auto;
+}
+
+/* Hide sidebar on wider screens */
+@media (min-width: 768px) {
+  .hamburger,
+  .sidebar {
+    display: none;
+  }
+}
