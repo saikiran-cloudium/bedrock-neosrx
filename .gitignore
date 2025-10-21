@@ -9,6 +9,7 @@ web/app/uploads/*
 web/app/cache/*
 deploy.sh
 .github
+web/app/wflogs/*
 
 # WordPress
 web/wp
