@@ -53,7 +53,7 @@
     "roots/wp-config": "1.0.0",
     "roots/wp-password-bcrypt": "1.1.0",
     "wpackagist-plugin/elementor": "^3.32",
-    "wpackagist-plugin/forminator": "^1.47",
+    "wpackagist-plugin/forminator": "^1.48",
     "wpackagist-plugin/nexter-extension": "^4.3",
     "wpackagist-plugin/newsletter-optin-box": "^4.0",
     "wpackagist-plugin/safe-svg": "^2.4",
