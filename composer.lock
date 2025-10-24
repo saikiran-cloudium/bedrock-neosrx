@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "3f984829bc2e982536d88f3b41a84d31",
+    "content-hash": "b460cfd8862b12dd1f436dbd9c9339fc",
     "packages": [
         {
             "name": "composer/installers",
@@ -1150,15 +1150,15 @@
         },
         {
             "name": "wpackagist-plugin/elementor",
-            "version": "3.32.4",
+            "version": "3.32.5",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/elementor/",
-                "reference": "tags/3.32.4"
+                "reference": "tags/3.32.5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/elementor.3.32.4.zip"
+                "url": "https://downloads.wordpress.org/plugin/elementor.3.32.5.zip"
             },
             "require": {
                 "composer/installers": "^1.0 || ^2.0"
@@ -1309,6 +1309,24 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/wordfence/"
+        },
+        {
+            "name": "wpackagist-plugin/wp-security-audit-log",
+            "version": "5.5.3",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/wp-security-audit-log/",
+                "reference": "tags/5.5.3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/wp-security-audit-log.5.5.3.zip"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/wp-security-audit-log/"
         },
         {
             "name": "wpackagist-theme/twentytwentyfive",
