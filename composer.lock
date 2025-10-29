@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "b460cfd8862b12dd1f436dbd9c9339fc",
+    "content-hash": "039da3dbcdc4a5c4ef2201dee88827a7",
     "packages": [
         {
             "name": "composer/installers",
@@ -1219,24 +1219,6 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/nexter-extension/"
-        },
-        {
-            "name": "wpackagist-plugin/safe-svg",
-            "version": "2.4.0",
-            "source": {
-                "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/safe-svg/",
-                "reference": "tags/2.4.0"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/safe-svg.2.4.0.zip"
-            },
-            "require": {
-                "composer/installers": "^1.0 || ^2.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/safe-svg/"
         },
         {
             "name": "wpackagist-plugin/smart-slider-3",
